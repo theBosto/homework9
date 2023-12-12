@@ -1,0 +1,22 @@
+@media (max-width: 795px) {
+    header {
+        padding-inline: 67px;
+    }
+}
+
+@media (max-width: 755px) {
+    header {
+        padding-inline: 14px;
+        justify-content: space-between;
+    }
+
+    .burger {
+        display: inherit;
+    }
+
+    .header_ul {
+        display: none;
+    }
+
+
+}

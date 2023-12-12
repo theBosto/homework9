@@ -1,0 +1,11 @@
+@media (max-width: 1025px) {
+    header {
+        padding-inline: 92px;
+    }
+}
+
+@media (max-width: 845px) {
+    header {
+        padding-inline: 67px;
+    }
+}
