@@ -1,22 +1,39 @@
-@media (max-width: 795px) {
-    header {
-        padding-inline: 67px;
-    }
-}
-
-@media (max-width: 755px) {
+@media (max-width: 500px) {
     header {
         padding-inline: 14px;
-        justify-content: space-between;
     }
 
-    .burger {
-        display: inherit;
+    .section1 {
+        padding-inline: 14px;
+        height: 431px;
     }
 
-    .header_ul {
-        display: none;
+    .section1 article h2 {
+        font-size: 32px;
+        line-height: 40px;
     }
 
+    .section article p {
+        font-size: 14px;
+        line-height: 22px;
+        
+    }
 
+    .section2 {
+        padding: 48px 14px ;
+    }
+
+    .section3 {
+        padding-inline: 14px;
+        margin-bottom: 48px;
+    }
+
+    .section3_card_right {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .right_side_img {
+        width: 100%;
+    }
 }
